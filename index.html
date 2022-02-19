@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Stop Watch</title>
+    <style>
+        .mainTime{
+            font-size:30px;
+            margin:0 5px;
+        }
+       
+        .btn{
+            padding:0 20px;
+            margin:0 5px;
+        }
+        .myinput{
+            width:40px;
+            background:#fff;
+        }
+        .soncta{
+            border-radius: 5px;
+        }
+        .mainTime{
+            border: 3px solid #fff;
+            padding:5px;
+            border-radius:10px;
+        }
+    </style>
+</head>
+<body>
+
+  <section>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3"></div>
+              <div class="col-md-6 mt-5">
+                  <div class="soncta  bg-dark text-center p-3 text-light">
+                    <div class="heading mb-4">
+                        <h4>Stop Watch</h4>
+                    </div>
+
+                    <div class="mainTime">
+                        00 : 00 : 00 : 0000
+                    </div>
+                    
+                    <div class="controlButton mt-4">
+                        <button class="start btn btn-light">Start</button>
+                        <button class="stop btn btn-light">Stop</button>
+                        <button class="reset btn btn-light">Reset</button>
+                    </div>
+                    <div class="userTime my-4">
+                        <p>Use For Alarm 1 Item</p>
+                        Munits : <input class="mr-2 myinput UserM" type="text">
+                        Second : <input class="myinput UserS" type="text">
+                    </div>
+                  </div> 
+              </div>
+              <div class="col-md-3"></div>
+          </div>
+      </div>
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>
